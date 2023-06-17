@@ -22,5 +22,9 @@ from .views import index
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", index, name="index"),
+<<<<<<< HEAD
     path("cliente/", include("cliente.urls","cliente"))
+=======
+    path("cliente/", include("cliente.urls", "cliente"))
+>>>>>>> 1575d2a5096c46067b16c9cea0c88fa73f1ec4ec
 ]
